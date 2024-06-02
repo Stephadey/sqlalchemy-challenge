@@ -2,7 +2,7 @@
 
 ## Overview
 
-This challenge performs a climate analysis and data exploration of the Honolulu, Hawaii area. It uses Python, SQLAlchemy, Pandas, and Matplotlib to analyse climate data stored in a SQLite database. Additionally, a Flask API is created to provide easy access to the data through various endpoints.
+This project performs a climate analysis and data exploration of the Honolulu, Hawaii area. It uses Python, SQLAlchemy, Pandas, and Matplotlib to analyse climate data stored in a SQLite database. Additionally, a Flask API is created to provide easy access to the data through various endpoints.
 
 ## Files
 
@@ -18,8 +18,8 @@ This challenge performs a climate analysis and data exploration of the Honolulu,
 
 1. **Clone the repository:**
     ```bash
-    git clone <repository_url>
-    cd <repository_directory>
+    git clone https://github.com/Stephadey/sqlalchemy-challenge.git
+    cd sqlalchemy-challenge
     ```
 
 2. **Create a virtual environment:**
@@ -50,7 +50,8 @@ This challenge performs a climate analysis and data exploration of the Honolulu,
 
 1. **Ensure your virtual environment is activated:**
     ```bash
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    source venv/bin/activate  
+    # On Windows use `venv\Scripts\activate`
     ```
 
 2. **Run the Flask application:**
